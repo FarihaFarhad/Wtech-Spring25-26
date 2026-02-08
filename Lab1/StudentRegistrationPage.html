@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <title> Student Registration Page</title>
+    <head>
+        <h1>
+            Student Registration Page
+        </h1>
+    </head>
+
+    <form>
+        <label for = "StudentName"> Student Name: </label>
+        <input type = "text" id = "StudentName" name = "StudentName" placeholder = "Enter Your Name"><br><br>
+
+        <label for = "StudentCGPA"> Student CGPA:</label>
+        <input type = "text" id = "StudentCGPA" name = "CGPA" placeholder = "Enter Your CGPA"><br> <br>
+
+    
+        <label for = "GenderMale"> Male</label>
+        <input type = "radio" id = "GenderMale" name ="Gender" value = "Male">
+        <label for = "GenderFemale"> Female</label>
+        <input type = "radio" id = "GenderFemale" name ="Gender" value = "Female"><br><br>
+
+        <label for = "Dept"> Select Department: </label>
+        <select id = "Dept" name = "Dept">
+            <option value ="CSE"> CSE </option>
+            <option value ="EEE"> EEE </option>
+            <option value ="COE"> COE </option>
+        </select><br><br>
+
+        <label for = "StudentId"> Student ID: </label>
+        <input type = "text" id = "StudentId" name = "StudentId" placeholder="Enter your Id"><br><br>
+
+        <label for ="StudentAddress"> Address: </label>
+        <textarea id ="StudentAddress" name ="StudentAddress" rows ="5" cols ="50" placeholder="Enter Your Address Here "></textarea><br><br>
+
+        <label for ="StudentDOB"> Date of Birth: </label>
+        <input type ="date" id ="StudentDOB" name ="DOB"><br><br>
+
+        <label for ="StudentEmail"> Email: </label>
+        <input type ="text" id ="StudentEmail" name ="StudentEmail" placeholder="Enter Your Email"><br><br>
+
+        <label for ="File"> Upload your Grade Report: </label>
+        <input type ="file" id ="File" name ="File"><br><br>
+
+        <label for = "Terms"> I agree to the terms and conditions </label>
+        <input type ="checkbox" id ="Terms" name ="Terms"><br><br>
+
+        <label for ="PhoneNumber"> Phone Number: </label>
+        <input type ="text" id ="PhoneNumber" name ="PhoneNumber" placeholder="Enter Your Phone Number"><br><br>
+
+        <label for ="Submit"> Submit your information </label><br><br>
+        <input type = "submit" id ="submit" name ="submit">
+    </form>
+</html>
