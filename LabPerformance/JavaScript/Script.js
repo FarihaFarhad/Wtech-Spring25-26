@@ -92,10 +92,10 @@ function collect_comment()
 
 function submit_key()
 {
-    clickcount++;
+    
     let submitdata = document.getElementById("keysubmit").value;
-    document.getElementById("keysubmit").style.color="green";
-    document.getElementById("keysubmit").innerHTML="Again Submit" + clickcount;
+    document.getElementById("keysubmit");
+    
     return false;
 }
 
