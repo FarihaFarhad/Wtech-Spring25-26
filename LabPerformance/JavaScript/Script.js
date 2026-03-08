@@ -1,7 +1,7 @@
 console.log("Connected");
 
 
-function collet_data()
+function collect_data()
 {
     let isnamevalid= collect_firstname();
     let isnameValid = collect_lastname();
