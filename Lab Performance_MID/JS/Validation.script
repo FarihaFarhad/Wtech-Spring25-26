@@ -1,0 +1,28 @@
+const unitPrice = 1000;
+let days = 30;
+
+const quantityInput = document.getElementById("quantity");
+const totalPriceField = document.getElementById("totalPrice");
+
+quantityInput.addEventListener("input", function()
+{
+
+    let quantity = parseInt(quantityInput.value)||0;
+
+    if(quantity < 0 )
+    {
+        alert("Quantity cannot be negative.");
+        quantity = 0;
+        quantityInput.value = 0;
+    }
+
+    let totalPrice = unitPrice * quantity * days;
+
+    totalPriceField.value = totalPrice;
+
+    if(totalPrice > 1000)
+    {
+        alert("Congratulations! You are eligible for a gift coupon.");
+    }
+
+});
