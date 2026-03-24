@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin:20px;
+    padding: 20px;
+    align-content: center;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-weight: bold;
+}
+
+form{
+    align-content: center;
+    max-width: fit-content;
+    margin: auto;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: bisque;
+    border: 1px ;
+    text-align: left;
+}
