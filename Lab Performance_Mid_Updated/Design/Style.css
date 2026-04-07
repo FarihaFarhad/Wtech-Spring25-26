@@ -1,0 +1,31 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 350px;
+    margin: 120px auto;
+}
+fieldset{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px sold black;
+
+}
+label{
+    font-weight: bold;
+}
+legend{
+    font-weight:bold;
+    text-align: left;
+
+}
+input{
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    
+}
